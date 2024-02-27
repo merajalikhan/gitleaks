@@ -35,5 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       
+      - name: Run a multi-line script..
+        uses: gitleaks/gitleaks-action@v2.3.4
+      
 
           
