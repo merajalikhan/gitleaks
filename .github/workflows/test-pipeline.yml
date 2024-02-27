@@ -1,4 +1,4 @@
-# This is a basic workflow to help you get started with Actions
+g# This is a basic workflow to help you get started with Actions
 
 name: CI
 
@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       
-      - name: Run a multi-line script..
+      - name: Run Gitleaks..
         uses: gitleaks/gitleaks-action@v2.3.4
       
 
