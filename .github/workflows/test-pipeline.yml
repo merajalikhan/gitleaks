@@ -42,13 +42,13 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: DariuszPorowski/github-action-gitleaks@5c3e70f794d4c928460daf621eff608f477c2510
         uses: DariuszPorowski/github-action-gitleaks@v2.0.9
-       # with:
+        with:
             # Path to source (relative to $GITHUB_WORKSPACE) (default: $GITHUB_WORKSPACE)
             #source: # optional
           # Config file path (relative to $GITHUB_WORKSPACE) (default build-in: /.gitleaks/UDMSecretChecks.toml)
             #config: # optional, default is /.gitleaks/UDMSecretChecks.toml
           # Report file format: json, csv, sarif (default: json)
-            #report_format: # optional, default is json
+            report_format: csv # optional, default is json
           # Treat git repos as plain directories and scan those file (default: <not set>)
             #no_git: # optional
           # Path to baseline with issues that can be ignored (relative to $GITHUB_WORKSPACE) (default: <not set>)
