@@ -12,6 +12,7 @@ jobs:
       - uses: austenstone/get-org-repos@main
         with:
           github-token: ${{ github.token }}
+          org: ${{ github.event.organization.login }}
         id: get-org-repos
     outputs:
       repos: ${{ steps.get-org-repos.outputs.repos }}
